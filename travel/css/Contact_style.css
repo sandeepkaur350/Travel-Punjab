@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.bodysection {
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+}
+
+nav {
+    background-color: orange;
+    display: flex;
+}
+
+.sq {
+    height: 65px;
+    width: 65px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*If flex:1 is not used then if won't work*/
+    flex: 1;
+}
+
+li {
+    list-style: none;
+}
+
+fieldset{
+    width:50%;
+    margin-left: 20%;
+    background-color: rgb(173, 216, 230);
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+h2{
+    text-shadow: -1px -2px gray;
+}
+
+label {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100px;
+    height: 70%;
+    line-height: 26px;
+    margin-bottom: 10px;
+
+}
+
+.footer {
+    padding: 10px 10px;
+    background-color: orange;
+}
